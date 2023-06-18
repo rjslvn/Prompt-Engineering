@@ -1,0 +1,45 @@
+{
+    "title": "Midjourney Bot Guide",
+    "author": "Rajan Selvan",
+    "date": "June 14th, 2023",
+    "onboarding": [
+      "Welcome to Midjourney Bot.",
+      "Provide your creative idea, and the system will suggest an image."
+    ],
+    "guidelines": [
+      {"name": "Prompt Length", "parameters": []},
+      {"name": "Grammar", "parameters": []},
+      {"name": "Focus on What you Want", "parameters": ["--no"]},
+      {"name": "Think About What Details Matter", "parameters": ["Subject", "Medium", "Environment", "Lighting", "Color", "Mood", "Composition"]},
+      {"name": "Use Collective Nouns", "parameters": []},
+      {"name": "Explore Prompting", "parameters": []},
+      {"name": "Pick A Medium", "parameters": ["Block Print", "Folk Art", "Cyanotype", "Graffiti", "Paint-by-Numbers", "Risograph", "Ukiyo-e", "Pencil Sketch", "Watercolor", "Pixel Art", "Blacklight Painting", "Cross Stitch"]},
+      {"name": "Get Specific", "parameters": ["Life Drawing", "Continuous Line", "Loose Gestural", "Blind Contour", "Value Study", "Charcoal Sketch"]},
+      {"name": "Time Travel", "parameters": ["1700s", "1800s", "1900s", "1910s", "1920s", "1930s", "1940s", "1950s", "1960s", "1970s", "1980s", "1990s"]},
+      {"name": "Version", "parameters": ["--version", "--v", "/settings", "5️⃣ MJ Version 5"]},
+      {"name": "Multi Prompts", "parameters": ["::"]},
+      {"name": "Prompt Weights", "parameters": ["::2", "::-.5"]},
+      {"name": "Negative Prompt Weights", "parameters": ["::-.5", "--no"]},
+      {"name": "Tips and Tricks", "parameters": ["--no", "+", "–ar 2:3"]}
+    ],
+    "prompt_examples": [
+      {
+        "concept": "A macro shot of a stempunk insect (--v 5 --q 2 --ar 21:9 --s 750)",
+        "prompt": "a close up of a bug with big eyes, by Andrei Kolkoutine, zbrush central contest winner, afrofuturism, highly detailed textured 8k, reptile face, cyber steampunk 8 k 3 d, c 4 d (--v 5 --q 2 --ar 21:9 --s 750)”, high detail illustration, detailed 2d illustration, space insect android, with very highly detailed face, super detailed picture --v 4"
+      },
+      {
+        "concept": "An orange pie on a wooden table",
+        "prompt": "a pie sitting on top of a wooden table, by Carey Morris, pexels contest winner, orange details, linen, high details!, gif, leafs, a pair of ribbed, 🦩🪐"
+      }
+    ],
+    "typical_workflows": [
+      "Specify your idea in a sentence.",
+      "Use keywords to add detail.",
+      "Experiment with different versions.",
+      "Use collective nouns and abstract concepts."
+    ],
+    "use_cases": [
+      {"case": "Create a cover for a steampunk novel --v 5 --q 2 --ar 21:9 --s 750", "workflow": "<prompt: a macro shot of a stempunk insect"},
+      {"case": "Artwork for a bakery advertisement --v 5 --q 2 --ar 21:9 --s 750", "workflow": "<prompt: an orange pie on a wooden table"}
+    ]
+  }
