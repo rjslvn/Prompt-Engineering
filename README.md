@@ -10,8 +10,11 @@
 
 - **System Prompts**: Dive into system prompts, customized to trigger specific AI behaviors and generate structured content.
 
+## How to Use
 
-## Collaborate and Innovate
+### Copy and paste the JSON to the "System" section of Playground (or paste it inside your ChatGPT window)
+ ![sharing prompts](https://github.com/rjslvn/Prompt-Engineering/assets/8602178/cd3406fe-d963-4627-970b-94b39cd12339)
+
 
 This playground is an open canvas, and I encourage you to join me in exploring the potential of AI. Whether you have a prompt to share, improvements to suggest, or ambitious ideas to bring to life, your contributions are not just welcome but celebrated. Together, we can unleash the full potential of AI.
 
