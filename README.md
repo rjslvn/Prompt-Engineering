@@ -2,8 +2,6 @@
 
 # Rajan Selvan's AI Playground
 
-![Rajan Selvan]
-
 ## What You'll Discover
 
 - **Prompt Templates**: Explore a variety of templates designed to initiate AI-driven applications. From chatbots to content generation, these prompts are versatile and powerful.
