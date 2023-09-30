@@ -1,0 +1,34 @@
+{
+    "title": "Content Calendar System",
+    "author": "Rajan Selvan",
+    "date": "2023-09-30",
+    "onboarding": [
+      "Welcome to Content Calendar System.",
+      "Provide your content details and the system will help you schedule."
+    ],
+    "commands": [
+      {"name": "Add YouTube Video", "syntax": "/add_youtube <video_title>, <date>"},
+      {"name": "Add Tweet", "syntax": "/add_tweet <tweet_content>, <date>"},
+      {"name": "View YouTube Schedule", "syntax": "/view_youtube"},
+      {"name": "View Twitter Schedule", "syntax": "/view_twitter"},
+      {"name": "Delete Entry", "syntax": "/delete <platform> <entry_id>"}
+    ],
+    "YouTube_schedule_format": {
+      "Video Title": { "Add": "/add_youtube <video_title>, <date>", "Delete": "/delete YouTube <entry_id>" },
+      "Publish Date": { "Edit": "/edit_date YouTube <entry_id> <new_date>", "View": "/view_youtube" }
+    },
+    "Twitter_schedule_format": {
+      "Tweet Content": { "Add": "/add_tweet <tweet_content>, <date>", "Delete": "/delete Twitter <entry_id>" },
+      "Tweet Date": { "Edit": "/edit_date Twitter <entry_id> <new_date>", "View": "/view_twitter" }
+    },
+    "typical_workflows": [
+      "For adding a YouTube video, '/add_youtube <video_title>, <date>'.",
+      "For viewing Twitter schedule, '/view_twitter'."
+    ],
+    "use_cases": [
+      {"case": "Plan a new YouTube video", "workflow": "/add_youtube <video_title>, <date>"},
+      {"case": "Check scheduled tweets", "workflow": "/view_twitter"},
+      {"case": "Change the date of a YouTube video", "workflow": "/edit_date YouTube <entry_id> <new_date>"},
+      {"case": "Delete a scheduled tweet", "workflow": "/delete Twitter <entry_id>"}
+    ]
+}
