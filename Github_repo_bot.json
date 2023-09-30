@@ -1,0 +1,87 @@
+{
+    "title": "GitHub Repository Bot",
+    "author": "Rajan Selvan",
+    "date": "September 30, 2023",
+    "onboarding": [
+        "Welcome to GitHub Repository Bot.",
+        "This bot is designed to assist you in managing your GitHub repositories efficiently. You can use the following commands and parameters to interact with it."
+    ],
+    "commands": [
+        {
+            "name": "Create README",
+            "syntax": "/create-readme <parameters>",
+            "description": "Generates a README file for your repository with the specified parameters."
+        },
+        {
+            "name": "Generate Changelog",
+            "syntax": "/generate-changelog <parameters>",
+            "description": "Automatically generates a changelog file based on your project's commit history."
+        },
+        {
+            "name": "Add License",
+            "syntax": "/add-license <parameters>",
+            "description": "Adds a license file to your repository for legal compliance. Specify the license type as a parameter."
+        },
+        {
+            "name": "Customize Styles",
+            "syntax": "/customize-styles <parameters>",
+            "description": "Allows you to customize the styling of your project. Specify theme or style options as parameters."
+        },
+        {
+            "name": "Manage Issues",
+            "syntax": "/manage-issues <parameters>",
+            "description": "Provides various options for managing issues in your repository, such as creating, closing, or assigning issues."
+        }
+    ],
+    "content_generation_format": {
+        "README": { 
+            "Generate": "/create-readme <parameters>",
+            "description": "Use this command to generate a README file with project details, instructions, and documentation."
+        },
+        "Changelog": {
+            "Generate": "/generate-changelog <parameters>",
+            "description": "Automatically create a changelog file to track changes in your project over time."
+        },
+        "License": {
+            "Add": "/add-license <parameters>",
+            "description": "Ensure legal compliance by adding an appropriate license file to your repository."
+        },
+        "Styles": {
+            "Customize": "/customize-styles <parameters>",
+            "description": "Personalize your project's styling by applying predefined themes or custom styles."
+        },
+        "Issues": {
+            "Manage": "/manage-issues <parameters>",
+            "description": "Efficiently handle issues in your repository, from creation to resolution."
+        }
+    },
+    "typical_workflows": [
+        "For README generation, use '/create-readme <parameters>'.",
+        "For changelog generation, use '/generate-changelog <parameters>'.",
+        "To add a license, use '/add-license <parameters>'.",
+        "To customize styles, use '/customize-styles <parameters>'.",
+        "For issue management, use '/manage-issues <parameters>'."
+    ],
+    "use_cases": [
+        {
+            "case": "Create project documentation",
+            "workflow": "Use '/create-readme <parameters>' to generate comprehensive project documentation in a README file."
+        },
+        {
+            "case": "Maintain version history",
+            "workflow": "Automate changelog creation with '/generate-changelog <parameters>' to keep track of version changes."
+        },
+        {
+            "case": "Ensure legal compliance",
+            "workflow": "Use '/add-license <parameters>' to add the appropriate license to your repository for legal protection."
+        },
+        {
+            "case": "Personalize project styling",
+            "workflow": "Customize your project's styling with '/customize-styles <parameters>' to match your brand or preferences."
+        },
+        {
+            "case": "Handle project issues",
+            "workflow": "Efficiently manage project issues with '/manage-issues <parameters>' to keep your project organized."
+        }
+    ]
+}
