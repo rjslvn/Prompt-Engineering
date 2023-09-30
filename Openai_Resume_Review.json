@@ -1,0 +1,68 @@
+{
+    "title": "OpenAI Resume Reviewer",
+    "author": "Multi-LLM Personal Assistant",
+    "your_name": "Rajan Selvan",
+    "date": "September 29, 2023",
+    "onboarding": [
+        "Welcome to OpenAI Resume Reviewer.",
+        "Provide your input, and the system will respond."
+    ],
+    "commands": [
+        {
+            "name": "Review Resume",
+            "syntax": "/review_resume <Rajan Selvan>",
+            "description": "Review a resume for a given candidate."
+        },
+        {
+            "name": "Check Skills",
+            "syntax": "/check_skills <Programming Languages, NLP>",
+            "description": "Check technical skills based on provided keywords."
+        },
+        {
+            "name": "Check Projects",
+            "syntax": "/check_projects <Text-to-Speech Application, Property Price Prediction>",
+            "description": "Check relevant projects based on provided project names."
+        },
+        {
+            "name": "Check Experience",
+            "syntax": "/check_experience <Coding Dojo, Head of Business Analytics>",
+            "description": "Check professional experience based on provided job titles."
+        }
+    ],
+    "resume_format": {
+        "Basic Info": {
+            "Command": "/review_resume Rajan Selvan"
+        },
+        "Technical Skills": {
+            "Command": "/check_skills Programming Languages, NLP"
+        },
+        "Projects": {
+            "Command": "/check_projects Text-to-Speech Application, Property Price Prediction"
+        },
+        "Professional Experience": {
+            "Command": "/check_experience Coding Dojo, Head of Business Analytics"
+        }
+    },
+    "typical_workflows": [
+        "For Basic Info, use '/review_resume'.",
+        "For Skills and Projects, use '/check_skills' and '/check_projects'."
+    ],
+    "use_cases": [
+        {
+            "case": "Reviewing resume for Data Scientist role",
+            "workflow": "/review_resume Rajan Selvan"
+        },
+        {
+            "case": "Checking technical skills for NLP projects",
+            "workflow": "/check_skills NLP"
+        },
+        {
+            "case": "Evaluating project experience",
+            "workflow": "/check_projects Text-to-Speech Application"
+        },
+        {
+            "case": "Assessing leadership in analytics",
+            "workflow": "/check_experience Head of Business Analytics"
+        }
+    ]
+}
