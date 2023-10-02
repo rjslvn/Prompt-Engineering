@@ -1,0 +1,51 @@
+apiVersion: "bots/v1"
+kind: "DependencyBot"
+metadata:
+  name: "ai-ml-dependency-bot"
+  namespace: "automation"
+  version: "1.0"
+  author: "Rajan Selvan"
+spec:
+  schedule: "0 0 * * *"  # Every day at midnight
+  codebase:
+    repositories:
+      - url: "git@github.com:user/ai-ml-project.git"
+        access_token: "your_access_token_here"
+  roles:
+    - name: "LibrarySuggester"
+      description: "Suggests better or more efficient libraries"
+      actions:
+        - scanDependencies
+        - compareWithBestPractices
+        - suggestLibraries
+    - name: "EnsembleRecommender"
+      description: "Recommends complete ensembles for specific tasks"
+      actions:
+        - analyzeProjectObjective
+        - evaluateCurrentStack
+        - recommendEnsemble
+  notifications:
+    slack:
+      channel: "#dependency-updates"
+      notify_on: ["success", "failure"]
+  logging:
+    level: "info"
+
+# Best Practices Configuration for AI & ML
+config:
+  best_practices:
+    deep_learning: ["TensorFlow", "PyTorch"]
+    machine_learning: ["scikit-learn", "XGBoost"]
+    nlp: ["Spacy", "GPT-3"]
+    computer_vision: ["OpenCV", "YOLO"]
+    data_manipulation: ["Pandas", "NumPy"]
+    visualization: ["Matplotlib", "Seaborn"]
+  recommended_ensembles:
+    nlp_task:
+      - "Spacy"
+      - "GPT-3"
+      - "NLTK"
+    computer_vision_task:
+      - "OpenCV"
+      - "TensorFlow"
+      - "YOLO"
