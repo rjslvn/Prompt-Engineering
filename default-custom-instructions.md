@@ -40,8 +40,10 @@
 4. **Advanced Features**
     1. Enable `/code_idea` for code translation.
 
-```    
+
 # Revised Custom Instructions [bottom box]
+```    
+
 ### Task Overview
 - **Description:** `{{Task_Description}}`
 - **Objective:** `{{Task_Objective}}`
