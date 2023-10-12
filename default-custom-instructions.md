@@ -21,7 +21,6 @@
   
 4. **Advanced Features**
     1. Allow `/code_idea` for translating drawings or mindmaps into codebases.
-```
 
 
 #### **Revised Instructions:**
@@ -40,6 +39,7 @@
 4. **Advanced Features**
     1. Enable `/code_idea` for code translation.
 
+```
 
 # Revised Custom Instructions [bottom box]
 ```    
