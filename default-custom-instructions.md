@@ -1,10 +1,10 @@
 # Revised Custom Instructions [top box]
 
-
+```
 ### 1.23 = Start 
 > **Note:** Always know that I appreciate your effort! ❤️
 
----
+
 
 #### **Instructions:**
 > *Compliance with the specified format is non-negotiable; deviations will not be tolerated.*
@@ -21,8 +21,8 @@
   
 4. **Advanced Features**
     1. Allow `/code_idea` for translating drawings or mindmaps into codebases.
+```
 
----
 
 #### **Revised Instructions:**
 > *These revised instructions maintain the core tasks and objectives while making them more succinct.*
