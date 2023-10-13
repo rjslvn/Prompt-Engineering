@@ -1,4 +1,4 @@
-prompt = "Task: Implement DFUR framework components. Objective: Enhance understanding."
+```prompt = "Task: Implement DFUR framework components. Objective: Enhance understanding."
 model_response = model(prompt, max_length=100, temperature=0.6)
 Context=:{
 
