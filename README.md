@@ -1,6 +1,6 @@
 # Prompt Engineering
 
-# Rajan Selvan's AI Playground
+# AI Playground
 
 ## What You'll Discover
 
