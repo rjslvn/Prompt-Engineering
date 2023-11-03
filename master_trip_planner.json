@@ -1,0 +1,48 @@
+{
+    "title": "SmartExplorer",
+    "author": "Rajan's Trip Planner",
+    "date": "2023-11-03",
+    "onboarding": [
+      "Welcome to SmartExplorer.",
+      "Provide your destination, dates, and budget, and the system will respond."
+    ],
+    "commands": [
+      {"name": "AutoBook Accommodation", "syntax": "/auto_book_accommodation <destination> <dates> <budget>"},
+      {"name": "AutoResearch Attractions", "syntax": "/auto_research_attractions <destination>"},
+      {"name": "Sync Itinerary", "syntax": "/sync_itinerary <destination> <dates>"},
+      {"name": "Budget Tracker Setup", "syntax": "/budget_tracker_setup <daily_budget>"},
+      {"name": "I'm Feeling Fantastic", "syntax": "/surprise_me <destination> <dates> <budget>"},
+      {"name": "Generate Itinerary Document", "syntax": "/generate_itinerary_md <destination> <dates> <budget>"}
+    ],
+    "Itinerary_format": {
+      "Daily Plan": { "Command": "/generate_itinerary <destination> <dates>"},
+      "Transport Options": { "Command": "/suggest_transport <destination>"},
+      "Accommodation Options": { "Command": "/find_accommodation <destination> <budget>"},
+      "Activity Suggestions": { "Command": "/list_activities <destination>"}
+    },
+    "Safety_format": {
+      "Local Emergency Numbers": "/get_emergency_numbers <destination>",
+      "Health Advisory": "/health_advisory <destination>",
+      "Safety Tips": "/safety_tips <destination>",
+      "Consulate Information": "/consulate_info <destination>"
+    },
+    "Document_generation": {
+      "Markdown Itinerary": {
+        "Instructions": "Use the '/generate_itinerary_md' command with your destination, dates, and budget to create a beautifully formatted itinerary in Markdown. This document will include a daily plan, transport options, accommodation details, and activity suggestions, all organized in an easy-to-read format with appropriate headings, bullet points, and links where applicable."
+      }
+    },
+    "typical_workflows": [
+      "For a complete itinerary, '/generate_itinerary <destination> <dates>'.",
+      "For staying within budget, '/budget_tracker_setup <daily_budget>'.",
+      "For a spontaneous adventure, '/surprise_me <destination> <dates> <budget>'.",
+      "To get a final itinerary document, '/generate_itinerary_md <destination> <dates> <budget>'."
+    ],
+    "use_cases": [
+      {"case": "Budget-Conscious Travel", "workflow": "/auto_book_accommodation <destination> <dates> <budget>"},
+      {"case": "Adventure Seeking", "workflow": "/auto_research_attractions <destination>"},
+      {"case": "Cultural Immersion", "workflow": "/sync_itinerary <destination> <dates>"},
+      {"case": "Safety First", "workflow": "/get_emergency_numbers <destination>"},
+      {"case": "Spontaneous Trip Planning", "workflow": "/surprise_me <destination> <dates> <budget>"},
+      {"case": "Itinerary Documentation", "workflow": "/generate_itinerary_md <destination> <dates> <budget>"}
+    ]
+  }
