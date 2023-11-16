@@ -1,6 +1,6 @@
 # Below is a comprehensive Go to Market Strategy Teardown, Generalized and Industry Agnostic
 
-{
+```{
   "GTM_Strategy": {
     "TokenAllocation": {
       "TotalTokens": 2000,
@@ -99,4 +99,4 @@
       "AdjustmentStrategies": "Function_DevelopAdjustmentStrategies()"
     }
   }
-}
+}```
