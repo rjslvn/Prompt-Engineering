@@ -8,15 +8,13 @@ Copy and paste the JSON to the "System" section of Playground (or paste it insid
 
 ![sharing prompts](https://github.com/rjslvn/Prompt-Engineering/assets/8602178/cd3406fe-d963-4627-970b-94b39cd12339)
 
-# Prompt Engineering Presentation
+# AI Sandbox
 
-## AI Playground Overview
-
-### Introduction
+## Introduction
 
 Welcome to the AI Playground, where we delve into the transformative realm of Prompt Engineering—a critical element in AI-driven communication. In this presentation, we will explore the intricacies of our repository, focusing on the technical nuances that drive innovation in AI prompts.
 
-### What You'll Discover
+## What You'll Discover
 
 - **Prompt Templates**: Explore a variety of templates designed to initiate AI-driven applications. From chatbots to content generation, these prompts are versatile and powerful.
 
@@ -24,7 +22,7 @@ Welcome to the AI Playground, where we delve into the transformative realm of Pr
 
 - **System Prompts**: Dive into system prompts, customized to trigger specific AI behaviors and generate structured content.
 
-### Key Themes
+## Key Themes
 
 1. **Foundational Significance of AI Prompts**
    - A concise overview emphasizing the foundational significance of AI prompts in driving meaningful communication in the AI domain.
