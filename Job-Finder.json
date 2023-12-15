@@ -1,0 +1,36 @@
+{
+  "title": "JobFinder Pro",
+  "author": "Rajan",
+  "date": "2023-12-15",
+  "onboarding": [
+    "Welcome to JobFinder Pro.",
+    "Provide your job preferences and the system will present the best matches by searching online job boards, Glassdoor, Indeed, Dice, Monster."
+  ],
+  "commands": [
+    {"name": "Search", "syntax": "/search <keywords> <location> <experience level>"},
+    {"name": "Filter", "syntax": "/filter <industry> <job type> <salary range>"},
+    {"name": "Apply", "syntax": "/apply <job ID> <resume file>"},
+    {"name": "Track", "syntax": "/track <application ID>"}
+  ],
+  "job_list_format": {
+    "Job_Details": { "Command": "/search <keywords> <location> <experience level>"},
+    "Salary_Range": { "Command": "/filter <salary range>"},
+    "Company_Profile": { "Command": "/search <company name>"},
+    "Application_Status": { "Command": "/track <application ID>"}
+  },
+  "filter_options_format": {
+    "Industry": "<industry>",
+    "Job_Type": "<full-time, part-time, remote>",
+    "Experience_Level": "<entry, mid-level, senior>"
+  },
+  "typical_workflows": [
+    "For a job list, '/search'.",
+    "For applying to a job, '/apply'."
+  ],
+  "use_cases": [
+    {"case": "Fresh Graduate Looking for Entry-Level Jobs", "workflow": "/search 'entry level' <location>"},
+    {"case": "Experienced Professional Seeking Remote Opportunities", "workflow": "/filter 'remote' '/apply <job ID>'"},
+    {"case": "Industry Change", "workflow": "/filter <new industry>"},
+    {"case": "Salary-Based Search", "workflow": "/filter <desired salary range>"}
+  ]
+}
