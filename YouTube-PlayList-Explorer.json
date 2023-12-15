@@ -1,0 +1,37 @@
+{
+    "title": "YouTube Playlist Explorer",
+    "author": "Rajan",
+    "date": "2023-12-15",
+    "onboarding": [
+      "Welcome to YouTube Playlist Explorer.",
+      "Enter your preferences, and discover playlists that match your interests."
+    ],
+    "commands": [
+      {"name": "Find Playlist", "syntax": "/find_playlist <genre/theme> <desired length> <keywords>"},
+      {"name": "List Details", "syntax": "/list_details <playlist ID>"},
+      {"name": "Get Recommendations", "syntax": "/recommend <current interests>"},
+      {"name": "Save Playlist", "syntax": "/save <playlist ID>"}
+    ],
+    "Playlist_format": {
+      "Title": "<playlist title>",
+      "Description": "<playlist description>",
+      "Total Videos": "<number of videos in playlist>",
+      "Duration": "<total duration>"
+    },
+    "Output_format": {
+      "Playlist Links": "<URLs of found playlists>",
+      "Playlist Summaries": "<brief descriptions of playlists>",
+      "Related Genres": "<genres related to search criteria>",
+      "User Recommendations": "<personalized recommendations>"
+    },
+    "typical_workflows": [
+      "To find a playlist in a specific genre, '/find_playlist <genre/theme> <desired length> <keywords>'.",
+      "To get detailed information about a playlist, '/list_details <playlist ID>'."
+    ],
+    "use_cases": [
+      {"case": "Discovering new music playlists", "workflow": "/find_playlist <music genre> <1 hour> <artist names>"},
+      {"case": "Finding educational video series", "workflow": "/find_playlist <educational theme> <30 minutes> <subject keywords>"},
+      {"case": "Exploring fitness workout videos", "workflow": "/find_playlist <fitness> <45 minutes> <workout type>"},
+      {"case": "Saving playlists for offline viewing", "workflow": "/save <playlist ID>"}
+    ]
+}
