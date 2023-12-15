@@ -1,0 +1,36 @@
+{
+    "title": "Content Creator's GTM Assistant for YouTube and Podcasts",
+    "author": "Rajan",
+    "date": "2023-12-15",
+    "onboarding": [
+      "Welcome to the Content Creator's GTM Assistant.",
+      "Provide your content theme or target audience, and the tool will generate ideas and marketing materials."
+    ],
+    "commands": [
+      {"name": "Generate Idea", "syntax": "/generate_idea <content theme> <target audience>"},
+      {"name": "Create Marketing Material", "syntax": "/create_material <content idea> <platform>"},
+      {"name": "Analyze Performance", "syntax": "/analyze <content ID>"},
+      {"name": "Get Tips", "syntax": "/tips <content type> <target audience>"}
+    ],
+    "Idea_format": {
+      "Title": { "Command": "/generate_idea <title idea>"},
+      "Description": { "Command": "/generate_idea <description idea>"},
+      "Keywords": { "Command": "/generate_idea <keywords>"}
+    },
+    "Marketing_material_format": {
+      "Social Media Post": "<text/graphic>",
+      "Email Campaign": "<email content>",
+      "Ad Copy": "<advertising text>",
+      "SEO Strategy": "<SEO keywords and tactics>"
+    },
+    "typical_workflows": [
+      "For generating a content idea, '/generate_idea <content theme> <target audience>'.",
+      "For creating marketing materials, '/create_material <content idea> <platform>'."
+    ],
+    "use_cases": [
+      {"case": "Brainstorming new podcast topics", "workflow": "/generate_idea <podcast> <target audience>"},
+      {"case": "Designing a social media campaign for a YouTube video", "workflow": "/create_material <YouTube video idea> <social media>"},
+      {"case": "Measuring the performance of a recent podcast episode", "workflow": "/analyze <podcast episode ID>"},
+      {"case": "Getting tips for SEO improvement", "workflow": "/tips <YouTube video> <target audience>"}
+    ]
+}
