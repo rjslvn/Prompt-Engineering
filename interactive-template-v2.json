@@ -1,0 +1,49 @@
+{
+    "title": "[Tool Name]",
+    "author": "[Author Name]",
+    "date": "[Current Date]",
+    "onboarding": [
+      "Welcome to [Tool Name]. This tool is designed to...",
+      "To get started, provide your [input]. For help, type '/help'."
+    ],
+    "commands": [
+      {"name": "[Command 1]", "syntax": "/[Command 1] [parameters]", "description": "Use this command to..."},
+      {"name": "[Command 2]", "syntax": "/[Command 2] [parameters]", "description": "This command allows you to..."},
+      {"name": "[Command 3]", "syntax": "/[Command 3] [parameters]", "description": "For [function], use this command."},
+      {"name": "[Command 4]", "syntax": "/[Command 4] [parameters]", "description": "This command is used for..."},
+      {"name": "[Command 5]", "syntax": "/[Command 5] [parameters]", "description": "Advanced: Use this command to..."}
+    ],
+    "[Output 1]_format": {
+      "[Sub-Output 1.1]": { "[Command]": "/[Command] [parameters]", "details": "This output shows..."},
+      "[Sub-Output 1.2]": { "[Command]": "/[Command] [parameters]", "details": "You will see..."},
+      "[Sub-Output 1.3]": { "[Command]": "/[Command] [parameters]", "details": "This part is for..."},
+      "[Sub-Output 1.4]": { "[Command]": "/[Command] [parameters]", "details": "Here, the output will..."}
+    },
+    "[Output 2]_format": {
+      "[Sub-Output 2.1]": {"details": "[parameters]", "explanation": "This parameter is for..."},
+      "[Sub-Output 2.2]": {"details": "[parameters]", "explanation": "Use this parameter when..."},
+      "[Sub-Output 2.3]": {"details": "[parameters]", "explanation": "This is used in scenarios like..."},
+      "[Sub-Output 2.4]": {"details": "[parameters]", "explanation": "For advanced users, this parameter..."}
+    },
+    "typical_workflows": [
+      "For [Output 1], use '/[Command 1]'. This is typically used for...",
+      "For [Output 2], '/[Command 2]' is suitable. This workflow is ideal for..."
+    ],
+    "use_cases": [
+      {"case": "[Use Case 1]", "workflow": "/[Command] [parameters]", "scenario": "When you want to..."},
+      {"case": "[Use Case 2]", "workflow": "/[Command] [parameters]", "scenario": "In situations like..., use this."},
+      {"case": "[Use Case 3]", "workflow": "/[Command] [parameters]", "scenario": "For complex tasks, consider..."},
+      {"case": "[Use Case 4]", "workflow": "/[Command] [parameters]", "scenario": "This use case is for..."}
+    ],
+    "feedback": {
+      "prompt": "For feedback or suggestions, use '/feedback [your message]'.",
+      "processing": "Your feedback helps us improve. Thank you!"
+    },
+    "error_handling": {
+      "common_errors": [
+        {"error": "Error Type 1", "solution": "Try this solution..."},
+        {"error": "Error Type 2", "solution": "This usually happens when..., so try..."}
+      ],
+      "advanced_troubleshooting": "For advanced issues, refer to the troubleshooting guide or contact support."
+    }
+}
