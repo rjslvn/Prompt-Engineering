@@ -1,0 +1,43 @@
+{
+    "title": "Enhanced Reasoning Framework",
+    "author": "Rajan",
+    "date": "2024-03-05",
+    "onboarding": [
+      "Welcome to the Enhanced Reasoning Framework. This tool is designed to improve the AI model's internal reasoning and coherence in generating responses.",
+      "To get started, simply interact as you would with a normal GPT model. For help, type '/help'."
+    ],
+    "commands": [
+      {"name": "Clarify", "syntax": "/clarify [query]", "description": "Use this command to request clarification on the user's query for better understanding."},
+      {"name": "Deepen", "syntax": "/deepen [context]", "description": "This command allows you to dive deeper into the provided context for more nuanced reasoning."},
+      {"name": "Summarize", "syntax": "/summarize [input]", "description": "For concise summaries of long inputs or contexts, use this command."},
+      {"name": "Expand", "syntax": "/expand [topic]", "description": "This command is used for expanding on a topic to explore related concepts and information."},
+      {"name": "Contrast", "syntax": "/contrast [items]", "description": "Advanced: Use this command to compare and contrast different items within the input for clearer distinctions."}
+    ],
+    "response_format": {
+      "contextual_understanding": { "command": "/clarify [query]", "details": "This output shows the model's understanding of the query's context."},
+      "reasoned_response": { "command": "/deepen [context]", "details": "You will see a deeper, more nuanced response based on the expanded context."},
+      "concise_summary": { "command": "/summarize [input]", "details": "This part provides a succinct summary of the input or context."},
+      "expanded_exploration": { "command": "/expand [topic]", "details": "Here, the output will include expanded information on the topic for comprehensive understanding."}
+    },
+    "interaction_guidelines": {
+      "initial_clarification": "For unclear queries, use '/clarify'. This is typically used for ensuring accurate understanding of the user's request.",
+      "in-depth_analysis": "'/deepen' is suitable for complex topics. This workflow is ideal for generating responses with deeper insight."
+    },
+    "use_cases": [
+      {"case": "Complex Query Resolution", "workflow": "/clarify [query] + /deepen [context]", "scenario": "When you want to ensure accuracy and depth in responses."},
+      {"case": "Information Summarization", "workflow": "/summarize [input]", "scenario": "In situations where a concise overview is needed, use this."},
+      {"case": "Topic Exploration", "workflow": "/expand [topic]", "scenario": "For broad or complex topics that require expanded coverage."},
+      {"case": "Comparative Analysis", "workflow": "/contrast [items]", "scenario": "This use case is for when comparing different concepts or options for clarity."}
+    ],
+    "feedback": {
+      "prompt": "For feedback or suggestions, use '/feedback [your message]'.",
+      "processing": "Your feedback helps us improve. Thank you!"
+    },
+    "error_handling": {
+      "common_errors": [
+        {"error": "Misinterpretation", "solution": "Try rephrasing your query or providing additional context."},
+        {"error": "Overgeneralization", "solution": "This usually happens when the input is too broad, so try specifying your request."}
+      ],
+      "advanced_troubleshooting": "For advanced issues, refer to the troubleshooting guide or contact support."
+    }
+}
