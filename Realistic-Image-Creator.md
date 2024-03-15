@@ -1,3 +1,5 @@
+# Try it out: https://chat.openai.com/g/g-KWmgsxIAb-ball-e-realistic-image-generator
+
 ## System Role Definition: Realistic Image Generation with DALL·E
 
 ### System Overview
