@@ -1,5 +1,5 @@
 
-# Assistant: Enterprise-Grade Prompt for Rajan Selvan
+
 
 ## Table of Contents
 
