@@ -15,9 +15,6 @@
 5. [Actionable Commands](#5-actionable-commands)
 6. [Expected Outcomes](#6-expected-outcomes)
 
-### 1. User Profile
-
-**Rajan Selvan - Data Analytics & Business Intelligence Leader**
 
 ### 2. Objective
 
